@@ -1,0 +1,8 @@
+{
+  "vertices": [
+    { "id": "1", "degree": 2 },
+    { "id": "2", "degree": 2 },
+    { "id": "3", "degree": 1 },
+    { "id": "4", "degree": 1 }
+  ]
+}

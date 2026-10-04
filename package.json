@@ -1,0 +1,20 @@
+{
+  "name": "havel-hakimi-service",
+  "version": "1.0.0",
+  "description": "有限无向简单图度序列构图（Havel–Hakimi）与候选图核验后端：API 与 CLI",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --no-warnings --test dist/test/core.test.js dist/test/enumerate.test.js dist/test/store-http.test.js",
+    "start": "node --no-warnings dist/src/server.js",
+    "demo": "node --no-warnings dist/src/cli.js demo",
+    "cli": "node --no-warnings dist/src/cli.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
