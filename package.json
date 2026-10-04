@@ -1,0 +1,14 @@
+{
+  "name": "hh-degree-sequence",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Havel-Hakimi degree sequence realization backend (API + CLI)",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/server.js",
+    "cli": "node dist/src/cli.js",
+    "test": "npm run build && node --test dist/test/hh.test.js",
+    "demo": "node dist/src/cli.js demo"
+  }
+}
+
